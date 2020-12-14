@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Living Nautilus",
+        "description": "This datapack adds naturally generating nautiluses and the ability to bucket them!",
+        "icon": {
+            "item": "nautilus_shell"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:nautilus",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

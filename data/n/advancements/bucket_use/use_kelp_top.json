@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone"
+    },
+    "title": "",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:kelp",
+        "item": {
+          "item": "minecraft:tropical_fish_bucket"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "n:spawned"
+  }
+}

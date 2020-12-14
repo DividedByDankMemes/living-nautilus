@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "minecraft:deep_ocean",
+    "block": {
+      "block": "minecraft:water"
+    }
+  }
+}
