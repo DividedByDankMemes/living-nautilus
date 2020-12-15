@@ -3,6 +3,10 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:player",
-    "nbt": "{Inventory:[{id:\"minecraft:tropical_fish_bucket\",Slot:-106b}]}"
+    "equipment": {
+      "offhand": {
+        "item": "minecraft:tropical_fish_bucket"
+      }
+    }
   }
 }

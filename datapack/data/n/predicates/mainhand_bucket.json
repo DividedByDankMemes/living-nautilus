@@ -3,6 +3,10 @@
   "entity": "this",
   "predicate": {
     "type": "minecraft:player",
-    "nbt": "{SelectedItem:{id:\"minecraft:tropical_fish_bucket\"}}"
+    "equipment": {
+      "mainhand": {
+        "item": "minecraft:tropical_fish_bucket"
+      }
+    }
   }
 }
